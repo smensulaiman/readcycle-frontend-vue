@@ -13,5 +13,5 @@ const description = 'Read Cycle is a community-driven platform that helps univer
   <Navbar />
   <Hero :title="title" :subtitle="description"/>
   <HomeCards/>
-  <JobListings v-bind:limit="9" v-bind:show-more="false"/>
+  <JobListings v-bind:limit="3" v-bind:show-more="true"/>
 </template>
